@@ -52,6 +52,9 @@
         "composer/bin/phpunit"
     ],
     "autoload": {
+        "psr-0": {
+            "PHPUnit": "/"
+        },
         "classmap": [
             "PHPUnit/"
         ]
